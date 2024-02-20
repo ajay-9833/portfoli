@@ -1,0 +1,264 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .name{
+     height: 100px;
+     width: 100px;
+     padding: auto;
+     margin: 0 auto;
+     font-family: cursive;
+
+  }
+  label {
+    margin-bottom: 0rem;
+    display: block;
+
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    margin-bottom: 0rem;
+    width: 50%;
+    padding: 0.5rem;
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    text-align: center;
+    padding: 0.5rem 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+    text-align: center;
+  
+
+  }
+  #help{
+    padding-left: 30px;
+  }
+
+
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+    
+  }
+  
+  header h2 {
+    margin: 0;
+    justify-content: right;
+    text-align: left;
+    font-family: cursive;
+
+  }
+
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: right;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    justify-content: right;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    justify-content: right;
+  }
+  button{
+    border-radius: 40px;
+    margin-left: 47px;
+    height: 40px;
+    width: 150px;
+    text-size-adjust:auto ;
+  }
+  .insta{
+    color: black;
+    border-radius: 200px;
+    margin-left: 47px;
+    height: 40px;
+    width: 150px;
+    text-size-adjust:auto ;
+
+  }
+  
+  section {
+    font-family: "Georgia";
+    font-size: x-large;
+    padding: 150px;
+    background-color: grey;
+   
+    .image{
+        width: 300px;
+        height: 300px;
+        border-radius: 360px;
+        margin: 20px;
+        float: right;
+        margin-top: -75px;
+        margin-right: 20px;
+    }
+   
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  #about{
+    background-color:grey;
+    border:2px solid grey;
+    transition: right 2s ease-in-out;
+  }
+  #about:hover{
+    background-color: white;
+    color: #333;
+
+  }
+  
+  #home{
+    
+    background-color:grey;
+    border:2px solid grey;
+    transition: right 2s ease-in-out;
+  }
+  #home:hover{
+    background-color:white;
+    color:black
+  
+  }
+ 
+
+  #education{
+    text-align: center;
+    background-color: grey;
+  }
+  .education{
+    margin-left: 50%;
+    width:500px;
+    text-align: end;
+    border-radius: 40px;
+    background-color: grey;
+    border: 2px solid grey;
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+    animation-direction:reverse ;
+
+  
+
+  }
+  .education:hover{
+    background-color: #fff;
+    color: rgb(89, 202, 181);
+  font-size: 20 px;
+  }
+  #contact{
+    
+    background-color:grey;
+    border:2px solid grey;
+    transition: right 2s ease-in-out;
+  }
+#contact:hover{
+    background-color:white;
+    color:black
+
+}
+
+.social_icon{
+    text-align: center;
+    display: inline;
+    margin: 200px;
+    padding:25px;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+}
+
+div{
+    width: 300px;
+    height: 100px;
+    
+    display: inline;
+    justify-content: center;
+}
+
+
+  #formore{
+    
+        background-color:grey;
+        border:2px solid grey;
+        transition: right 2s ease-in-out;
+      }
+#formore:hover{
+        background-color:white;
+        color:black
+
+  }
+
+
+
+
+
+
+
+
+
+
+@keyframes coloranimate{
+from{background-color: grey;}
+  to {background-color: #333;}
+}
+@media screen and (min-width: 80rem) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+  @media screen and (min-width: 767px)
+  (max-width:991px)
+   {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+  @media screen and (min-width: 992px)
+  (max-width:1023px)
+  {
+    .container {
+      margin: 1em 2em;
+    }
+  }@media only screen and (min-width: 1024) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+ 
